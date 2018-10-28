@@ -1,0 +1,62 @@
+.meeting-block{
+  border-radius: 5px;
+  border-color: white;
+  background-color:#4d4d4d;
+  width:100%;
+  height:80px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:8px;
+  box-shadow:0px 4px 4px 3px black;
+}
+.details{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:80%;
+}
+.title h3{
+  font-weight: 400;
+  margin:0px 5px;
+}
+.time h5{
+  color:#99999999;
+  font-weight: 500;
+  margin:0px 5px;
+}
+
+.members{
+  width:40%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  margin:0px 5px;
+}
+
+.mems{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:60px;
+  width:60px;
+  border-radius:50%;
+  margin:0px 5px;
+}
+#mem2{
+  background-image:url('./pics/face2.png');
+  background-size:cover;
+}
+#mem1{
+  background-image:url('./pics/face1.png');
+  background-size:cover;
+}
+#mem3{
+  background-image:url('./pics/face3.png');
+  background-size:cover;
+  background-position: 50% 60%;
+}
+#mem-plus{
+  background-color:grey;
+}

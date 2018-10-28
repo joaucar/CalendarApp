@@ -1,0 +1,62 @@
+.label-month{
+  color:white;
+}
+.calendar-container{
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+  width:550px;
+  height:415px;
+
+}
+
+/* Three buttons */
+.nav-month{
+  border-color:blue;
+  border-radius:5px;
+  align-items:baseline;
+}
+.today{
+  text-align: left;
+}
+.todayBtn{
+  font-size: 20px;
+  color:white;
+  background-color: blue;
+  border-radius:10px;
+  border-color:blue;
+  height:35px;
+  width:100px;
+  margin:0px 5px;
+  vertical-align: middle;
+}
+.svg-inline--fa{
+  width:40px !important;
+  height:35px;
+  align-content: center;
+}
+.display-month{
+  text-align: right;
+  font-size: 30px;
+}
+
+.editor-year{
+  width:70px;
+  height:25px;
+  font-size:20px;
+}
+.week-day{
+  height:50px;
+  width:50px;
+  background-color: #808080;
+}
+.day{
+  height:50px;
+  width:77px;
+  background-color: #404040;
+}
+.current-day{
+  background-color:blue;
+  height:50px;
+  width:50px;
+}

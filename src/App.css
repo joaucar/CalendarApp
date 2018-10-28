@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+  min-width: 700px;
+  width:100%;
+  height:1000px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border:1px;
+  border-radius:3px;
+  border-color:green;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  margin-bottom:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+/* Month Week Day Nav Bar*/
+.nav{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  width:550px;
+  margin:10px 0px;
+  color:blue;
+}
+.nav h4{
+  font-weight: 400;
+  margin:0px 5px;
+}
+.Month{
+  width:33%;
+}
+.Week{
+  width:33%;
+}
+.Day{
+  width:33%;
+}
+.blue{
+  background-color:blue;
+  height:4px;
+  width:100%;
+}
+.not-blue{
+  height:4px;
+  width:100%;
+}
+
+/* The Calendar */
+.calendar{
+  width:550px;
+  border-width:5px;
+}
+
+/* Button blocks*/
+.buttons{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:550px;
+}
+.add-button{
+  display:flex;
+  justify-content: center;
+  width:49%;
+  height:50px;
+  background-color:#404040;
+  border-radius:10px;
+  align-items:center;
+  box-shadow:0px 3px 3px 2px black;
+}
+.member-button{
+  display:flex;
+  justify-content: center;
+  width:49%;
+  height:50px;
+  background-color:#404040;
+  border-radius:10px;
+  align-items:center;
+  box-shadow:0px 3px 3px 2px black;
+}
+#text{
+  font-size: 25px;
+  font-weight:500;
+  margin-left:4px;
+}
+
+/* Meeting blocks*/
+.Meetings h1{
+  text-align:left;
+  font-weight:400;
+  margin-bottom:1px;
+}
+.Meetings{
+  width:550px;
+}
+
+/* Schedule blocks*/
+.Schedule h1{
+  text-align:left;
+  font-weight:400;
+  margin-bottom: 1px;
+}
+.Schedule{
+  width:550px;
+}
+
+
+/* Modal style stuff*/
+
+.modal-block{
+  width:500px;
+  height:400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border-radius:15px;
+  position:absolute;
+  top:15%;
+  left: calc(50% - 250px);
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:90%;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+.close{
+  width:30px;
+  height:100%;
+}
+input{
+  height:50px;
+  width:300px;
+  border-radius:5px;
+  text-align: left;
+  margin-top: 4px;
+  font-size:20px;
+}
+#submit{
+  background-color:blue;
+  color:white;
+  height:50px;
+  width:100px;
+  margin:10px;
+  font-size: 20px;
+  border-radius:7px;
+}
+#close{
+  background-color:blue;
+  color:white;
+  height:30px;
+  width:75px;
+  margin:10px;
+  font-size: 15px;
+  border-radius:7px;
+}
+.hide{
+  display:none;
+}
